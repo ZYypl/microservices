@@ -17,8 +17,8 @@ import java.io.Serializable;
 
 public class Dept implements Serializable{
 
-    private Long depId;
-    private String depName;
+    private Long depno;
+    private String depname;
     private String db_source;
 
 }

@@ -1,10 +1,11 @@
 package com.ypl.micro.controller;
 
-import com.ypl.micro.common.ApiResult;
+import com.zy.micro.common.ApiResult;
 import com.ypl.micro.services.DeptService;
 import com.zy.micro.entity.Dept;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,8 +37,8 @@ public class DeptController {
         apiResult.setMessage("新增成功");
         return apiResult;
     }
-    @RequestMapping(value = "/dept/select",method = RequestMethod.GET)
-    public ApiResult get(Integer dept) {
+    @RequestMapping(value = "/dept/select/{id}",method = RequestMethod.GET)
+    public ApiResult get(@PathVariable("id") Integer dept) {
         ApiResult apiResult = new ApiResult();
         Dept dept1;
         try {

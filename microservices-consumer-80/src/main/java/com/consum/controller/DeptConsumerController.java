@@ -2,7 +2,6 @@ package com.consum.controller;
 
 
 import com.zy.micro.common.ApiResult;
-import com.zy.micro.entity.Dept;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

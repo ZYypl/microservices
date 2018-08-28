@@ -22,3 +22,11 @@ spring:
         initial-size: 5
         max-total: 5
         max-wait-millis: 200
+
+#      客户端注册到eureka服务列表内
+eureka:
+  client:
+#    fetch-registry: false
+#    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka

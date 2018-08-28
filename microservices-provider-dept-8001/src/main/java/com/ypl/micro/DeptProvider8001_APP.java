@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
@@ -15,7 +16,8 @@ import javax.sql.DataSource;
 
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
 @MapperScan(value = "com.ypl.micro.dao")
-public class DeptProvider_APP {
+@EnableEurekaClient //注册进eureka
+public class DeptProvider8001_APP {
 
 
 
@@ -68,10 +70,10 @@ public class DeptProvider_APP {
 
 
     public static void main(String[] args) {
-//        SpringApplication app = new SpringApplication(DeptProvider_APP.class);
+//        SpringApplication app = new SpringApplication(DeptProvider8001_APP.class);
 //        app.setBannerMode(Banner.Mode.CONSOLE);
 //        AppCtx.ctx = app.run(args);
 
-		SpringApplication.run(DeptProvider_APP.class, args);
+		SpringApplication.run(DeptProvider8001_APP.class, args);
     }
 }

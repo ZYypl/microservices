@@ -12,6 +12,7 @@
         <module>microservices-api</module>
         <module>microservices-provider-dept-8001</module>
         <module>microservices-consumer-80</module>
+        <module>microservices-eurek-7001</module>
     </modules>
     <!--<packaging>pom</packaging>-->
 

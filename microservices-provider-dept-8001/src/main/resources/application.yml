@@ -26,7 +26,8 @@ spring:
 #      客户端注册到eureka服务列表内
 eureka:
   client:
-#    fetch-registry: false
-#    register-with-eureka: false
     service-url:
       defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: microservices_8001      # 服务名称修改
+    prefer-ip-address: true   # 访问路径显示IP地址

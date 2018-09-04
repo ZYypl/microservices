@@ -16,7 +16,10 @@ public class DeptConsumerController {
     @Resource
     RestTemplate restTemplate;
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+//    private static final String REST_URL_PREFIX = "http://localhost:8001";
+
+    private static final String REST_URL_PREFIX = "http://MICROSERVICES-DEPT";
+    //真正的通过微服务名字去eureka查找并访问
 
     @RequestMapping(value = "/consumer/get/{id}",method = RequestMethod.GET)
     public ApiResult get(@PathVariable("id") Integer depno){

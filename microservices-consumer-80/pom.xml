@@ -13,11 +13,11 @@
     <description>消费者</description>
 
     <dependencies>
-        <dependency>
-            <groupId>com.zy.micro</groupId>
-            <artifactId>microservices-api</artifactId>
-            <!--<version>${project.version}</version>-->
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.zy.micro</groupId>-->
+            <!--<artifactId>microservices-api</artifactId>-->
+            <!--&lt;!&ndash;<version>${project.version}</version>&ndash;&gt;-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

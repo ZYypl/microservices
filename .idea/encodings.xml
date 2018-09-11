@@ -4,9 +4,12 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-consumer-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-consumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-eurek-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-eureka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-eureka-7003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-provider-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-provider-dept-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-provider-dept-8003" charset="UTF-8" />
   </component>
 </project>

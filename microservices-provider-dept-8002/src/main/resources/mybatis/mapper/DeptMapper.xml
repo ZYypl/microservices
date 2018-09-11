@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ypl.micro.dao.DeptMapper">
+
+    <select id="selectByPrimaryKey" resultType="com.zy.micro.entity.Dept" parameterType="java.lang.Integer">
+        select
+        depno,depname,db_source
+        from dept
+        where depno = #{id,jdbcType=DECIMAL}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from dept
+        where depno = #{id,jdbcType=DECIMAL}
+    </delete>
+
+    <insert id="insert" parameterType="com.zy.micro.entity.Dept">
+        insert into dept(depname,db_source) values(#{depname},DATABASE())
+    </insert>
+
+    <update id="updateByPrimaryKey" parameterType="com.zy.micro.entity.Dept">
+        update dept set depname =#{depname},db_source=#{db_source}
+        where depno=#{depno}
+    </update>
+
+    <select id="findAll" resultType="com.zy.micro.entity.Dept">
+        select
+        depno,depname,db_source
+        from dept
+    </select>
+
+
+
+</mapper>

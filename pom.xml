@@ -15,6 +15,9 @@
         <module>microservices-eurek-7001</module>
         <module>microservices-eureka-7002</module>
         <module>microservices-eureka-7003</module>
+        <module>microservices-provider-dept-8002</module>
+        <module>microservices-provider-dept-8003</module>
+        <module>microservices-consumer-feign</module>
     </modules>
     <!--<packaging>pom</packaging>-->
 

@@ -26,4 +26,9 @@ public class DeptConsumerController {
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/select/"+depno,ApiResult.class);
     }
 
+    @RequestMapping(value = "/consumer/list",method = RequestMethod.GET)
+    public ApiResult list(){
+        return restTemplate.getForObject(REST_URL_PREFIX+"/dept/list",ApiResult.class);
+    }
+
 }

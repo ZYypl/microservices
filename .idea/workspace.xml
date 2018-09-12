@@ -2,59 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d364caa-c544-4f8b-9ad2-c1198b00f2b1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/service/DeptClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/ribbon/Myrule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/ribbon/Ribbon_MY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-feign/microservices-consumer-feign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/DeptConsumer_feign_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/controller/DeptConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/microservices-provider-dept-8002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/java/com/ypl/micro/DeptProvider8002_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/java/com/ypl/micro/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/java/com/ypl/micro/dao/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/java/com/ypl/micro/entity/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/java/com/ypl/micro/services/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/resources/config/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8002/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/microservices-provider-dept-8003.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/java/com/ypl/micro/DeptProvider8003_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/java/com/ypl/micro/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/java/com/ypl/micro/dao/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/java/com/ypl/micro/entity/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/java/com/ypl/micro/services/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/resources/config/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-8003/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/microservices-provider-dept-hystrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/DeptProvider8001_hystrix_APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/dao/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/entity/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/config/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zy_micro_microservices_api_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_27.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-api/microservices-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-api/microservices-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/microservices-consumer-80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/microservices-consumer-80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/DeptConsumer_APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/DeptConsumer_APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/config/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/controller/DeptConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/controller/DeptConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-provider-dept-8001/microservices-provider-dept-8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-provider-dept-8001/microservices-provider-dept-8001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-provider-dept-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/controller/DeptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="microservices.iws" />
@@ -73,6 +44,7 @@
     <ignored path="$PROJECT_DIR$/microservices-provider-dept-8003/target/" />
     <ignored path="$PROJECT_DIR$/microservices-provider-dept-8002/target/" />
     <ignored path="$PROJECT_DIR$/microservices-consumer-feign/target/" />
+    <ignored path="$PROJECT_DIR$/microservices-provider-dept-hystrix/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="193">
-      <file leaf-file-name="DeptConsumerController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/controller/DeptConsumerController.java">
+      <file leaf-file-name="DeptClientService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/service/DeptClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="175">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,89 +72,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeptConsumerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/controller/DeptConsumerController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="56" />
+            <state relative-caret-position="411">
+              <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-            </state>
-          </provider>
+      <file leaf-file-name="DeptMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/dao/DeptMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/config/config.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptConsumer_APP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/DeptConsumer_APP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DeptController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/controller/DeptController.java">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="250">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeptConsumer_feign_APP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/DeptConsumer_feign_APP.java">
+      <file leaf-file-name="DeptProvider8001_hystrix_APP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/DeptProvider8001_hystrix_APP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/service/DeptClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="-210">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/DeptService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="97" column="10" selection-start-line="12" selection-end-line="97" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -203,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatis.cfg.xml" />
-        <option value="$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/entity/Dept.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/common/ApiResult.java" />
         <option value="$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/services/DeptService.java" />
@@ -249,6 +212,13 @@
         <option value="$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/DeptConsumer_feign_APP.java" />
         <option value="$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/service/DeptClientService.java" />
         <option value="$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/DeptService.java" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/DeptProvider8001_APP.java" />
+        <option value="$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/DeptProvider8001_hystrix_APP.java" />
       </list>
     </option>
   </component>
@@ -299,7 +269,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -315,7 +285,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,58 +298,6 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
               <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,119 +305,6 @@
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
               <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="consum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="consum" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consum" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
@@ -607,25 +414,25 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -633,7 +440,7 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -642,7 +449,7 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -652,79 +459,25 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices-provider-dept-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-provider-dept-8003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -737,18 +490,18 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\microservices\microservices-provider-dept-8001\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\microservices\microservices-provider-dept-hystrix\src\main\resources" />
+      <recent name="D:\microservices\microservices-provider-dept-hystrix\src\main\java" />
+      <recent name="D:\microservices\microservices-consumer-feign\src\main\resources" />
+      <recent name="D:\microservices\microservices-consumer-feign\src\main\java" />
+      <recent name="D:\microservices\microservices-provider-dept-8003\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.consum.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\microservices\microservices-consumer-feign\src\main\resources" />
-      <recent name="D:\microservices\microservices-consumer-feign\src\main\java" />
-      <recent name="D:\microservices\microservices-provider-dept-8003\src\main\resources" />
-      <recent name="D:\microservices\microservices-provider-dept-8002\src\main\resources" />
-      <recent name="D:\microservices\microservices-provider-dept-8003\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\microservices\microservices-provider-dept-8001\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -763,7 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeptConsumer_feign_APP">
+  <component name="RunManager" selected="Application.DeptConsumer_APP">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -780,31 +533,9 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DeptConsumer_feign_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.consum.DeptConsumer_feign_APP" />
-      <module name="microservices-consumer-feign" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.consum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DeptProvider8001_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ypl.micro.DeptProvider8001_APP" />
-      <module name="microservices-provider-dept-8001" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ypl.micro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DeptProvider8003_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ypl.micro.DeptProvider8003_APP" />
-      <module name="microservices-provider-dept-8003" />
+    <configuration name="DeptProvider8001_hystrix_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ypl.micro.DeptProvider8001_hystrix_APP" />
+      <module name="microservices-provider-dept-hystrix" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -816,6 +547,28 @@
     <configuration name="EurekaServer7001_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eu.cloud.EurekaServer7001_APP" />
       <module name="microservices-eurek-7001" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EurekaServer7002_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eu.cloud.EurekaServer7002_APP" />
+      <module name="microservices-eureka-7002" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EurekaServer7003_APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eu.cloud.EurekaServer7003_APP" />
+      <module name="microservices-eureka-7003" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -1132,19 +885,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.DeptProvider8001_APP" />
-      <item itemvalue="Application.DeptProvider8003_APP" />
-      <item itemvalue="Application.DeptConsumer_feign_APP" />
       <item itemvalue="Application.EurekaServer7001_APP" />
+      <item itemvalue="Application.EurekaServer7002_APP" />
+      <item itemvalue="Application.EurekaServer7003_APP" />
+      <item itemvalue="Application.DeptProvider8001_hystrix_APP" />
       <item itemvalue="Application.DeptConsumer_APP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeptConsumer_feign_APP" />
         <item itemvalue="Application.DeptConsumer_APP" />
-        <item itemvalue="Application.DeptProvider8001_APP" />
+        <item itemvalue="Application.DeptProvider8001_hystrix_APP" />
+        <item itemvalue="Application.EurekaServer7003_APP" />
+        <item itemvalue="Application.EurekaServer7002_APP" />
         <item itemvalue="Application.EurekaServer7001_APP" />
-        <item itemvalue="Application.DeptProvider8003_APP" />
       </list>
     </recent_temporary>
   </component>
@@ -1226,15 +979,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535640402242</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="7:feign配置（失败）">
+      <created>1536686275911</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536686275911</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="80038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.4978678" weight="0.32845894" />
@@ -1245,11 +1004,12 @@
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.35950854" side_tool="true" weight="0.11187608" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.3290469" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.491453" weight="0.5478065" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.6404914" visible="true" weight="0.151463" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.6404914" visible="true" weight="0.48" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49573562" weight="0.32702237" />
       <window_info id="Capture Tool" order="0" />
       <window_info anchor="right" id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.27458397" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.27828056" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3264" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -1268,7 +1028,6 @@
       <window_info anchor="right" id="CDI" order="1" weight="0.32959402" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" sideWeight="0.49573562" weight="0.32924107" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32702237" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32959402" />
     </layout>
   </component>
@@ -1309,7 +1068,8 @@
     <MESSAGE value="5" />
     <MESSAGE value="6" />
     <MESSAGE value="6:info信息配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="6:info信息配置" />
+    <MESSAGE value="7:feign配置（失败）" />
+    <option name="LAST_COMMIT_MESSAGE" value="7:feign配置（失败）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1321,58 +1081,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/dao/DeptMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-eurek-7001/microservices-eurek-7001.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/com/netflix/discovery/shared/transport/decorator/RedirectingEurekaHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="616" selection-start-line="616" selection-end-line="616" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-eureka-7003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-eureka-7002/src/main/java/com/eu/cloud/EurekaServer7002_APP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-eureka-7003/src/main/java/com/eu/cloud/EurekaServer7003_APP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1440,11 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2225">
           <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
-            <element signature="e#2998#2999#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1511,13 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1516">
-          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservices-eurek-7001/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1542,16 +1238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/config/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/config/ConfigBean.java" />
     <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/DeptConsumer_APP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
+        <state relative-caret-position="100">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1561,7 +1251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/src/main/java/com/ypl/micro/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="725">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="41" />
         </state>
       </provider>
@@ -1569,20 +1259,20 @@
     <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="450">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-80/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
+        <state relative-caret-position="550">
           <caret line="22" column="47" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
@@ -1594,34 +1284,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/service/DeptClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/DeptConsumer_feign_APP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/consum/controller/DeptConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="450">
           <caret line="25" column="56" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-feign/src/main/java/com/consum/controller/DeptConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="850">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-api/src/main/java/com/zy/micro/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="97" column="10" selection-start-line="12" selection-end-line="97" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/dao/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/config/config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/services/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-provider-dept-hystrix/src/main/java/com/ypl/micro/DeptProvider8001_hystrix_APP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

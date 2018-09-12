@@ -18,6 +18,7 @@
         <module>microservices-provider-dept-8002</module>
         <module>microservices-provider-dept-8003</module>
         <module>microservices-consumer-feign</module>
+        <module>microservices-provider-dept-hystrix</module>
     </modules>
     <!--<packaging>pom</packaging>-->
 

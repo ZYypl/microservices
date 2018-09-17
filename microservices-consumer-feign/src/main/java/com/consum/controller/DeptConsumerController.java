@@ -19,14 +19,14 @@ public class DeptConsumerController {
     //  feign
     // /面向接口
     @Resource
-    DeptClientService deptClientService;
+    DeptClientService deptClientServiceImpl;
 
     @RequestMapping(value = "/consumer/get/{id}",method = RequestMethod.GET)
     public ApiResult get(@PathVariable("id") Integer depno){
         ApiResult apiResult =new ApiResult();
         apiResult.setResult(true);
         apiResult.setMessage("查询成功");
-        apiResult.setData(this.deptClientService.get(depno));
+        apiResult.setData(this.deptClientServiceImpl.get(depno));
         return apiResult;
 //        return this.deptClientService.get(depno);
     }
@@ -36,7 +36,7 @@ public class DeptConsumerController {
         ApiResult apiResult =new ApiResult();
         apiResult.setResult(true);
         apiResult.setMessage("查询成功");
-        apiResult.setData(this.deptClientService.list());
+        apiResult.setData(this.deptClientServiceImpl.list());
         return apiResult;
     }
 

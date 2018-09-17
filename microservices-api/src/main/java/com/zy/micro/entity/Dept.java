@@ -21,4 +21,27 @@ public class Dept implements Serializable{
     private String depname;
     private String db_source;
 
+    public Long getDepno() {
+        return depno;
+    }
+
+    public void setDepno(Long depno) {
+        this.depno = depno;
+    }
+
+    public String getDepname() {
+        return depname;
+    }
+
+    public void setDepname(String depname) {
+        this.depname = depname;
+    }
+
+    public String getDb_source() {
+        return db_source;
+    }
+
+    public void setDb_source(String db_source) {
+        this.db_source = db_source;
+    }
 }

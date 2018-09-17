@@ -40,7 +40,7 @@ public class DeptController {
         return apiResult;
     }
     @RequestMapping(value = "/dept/select/{id}",method = RequestMethod.GET)
-    @HystrixCommand(fallbackMethod = "hystrix_get")
+    @HystrixCommand(fallbackMethod = "hystrix_get")      //服务熔断
     public ApiResult get(@PathVariable("id") Integer dept) {
         ApiResult apiResult = new ApiResult();
         Dept dept1;

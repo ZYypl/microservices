@@ -39,21 +39,22 @@ public class DeptController {
         return apiResult;
     }
     @RequestMapping(value = "/dept/select/{id}",method = RequestMethod.GET)
-    public ApiResult get(@PathVariable("id") Integer dept) {
-        ApiResult apiResult = new ApiResult();
+    public Dept get(@PathVariable("id") Integer dept) {
+//        ApiResult apiResult = new ApiResult();
         Dept dept1;
         try {
              dept1 = deptServiceImpl.selectByPrimaryKey(dept);
         } catch (Exception e) {
             logger.error("error: ", e);
-            apiResult.setResult(true);
-            apiResult.setMessage("异常");
-            return apiResult;
+//            apiResult.setResult(true);
+//            apiResult.setMessage("异常");
+            return null;
         }
-        apiResult.setResult(true);
-        apiResult.setData(dept1);
-        apiResult.setMessage("查询成功");
-        return apiResult;
+//        apiResult.setResult(true);
+//        apiResult.setData(dept1);
+//        apiResult.setMessage("查询成功");
+//        return apiResult;
+        return dept1;
     }
 
     @RequestMapping(value = "/dept/list",method = RequestMethod.GET)

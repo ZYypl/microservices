@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 //import javax.annotation.Resource;
 
 
@@ -16,17 +18,17 @@ public class DeptConsumerController {
 
     //  feign
     // /面向接口
-    @Autowired
+    @Resource
     DeptClientService deptClientService;
 
     @RequestMapping(value = "/consumer/get/{id}",method = RequestMethod.GET)
-    public Dept get(@PathVariable("id") Integer depno){
-//        ApiResult apiResult =new ApiResult();
-//        apiResult.setResult(true);
-//        apiResult.setMessage("查询成功");
-//        apiResult.setData(this.deptClientService.get(depno));
-//        return apiResult;
-        return this.deptClientService.get(depno);
+    public ApiResult get(@PathVariable("id") Integer depno){
+        ApiResult apiResult =new ApiResult();
+        apiResult.setResult(true);
+        apiResult.setMessage("查询成功");
+        apiResult.setData(this.deptClientService.get(depno));
+        return apiResult;
+//        return this.deptClientService.get(depno);
     }
 
     @RequestMapping(value = "/consumer/list",method = RequestMethod.GET)

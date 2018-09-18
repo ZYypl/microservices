@@ -9,6 +9,7 @@
         <module name="microservices-api" />
         <module name="microservices-consumer-80" />
         <module name="microservices-consumer-feign" />
+        <module name="microservices-consumer-hystrix-dashboard" />
         <module name="microservices-eurek-7001" />
         <module name="microservices-eureka-7002" />
         <module name="microservices-eureka-7003" />
@@ -25,6 +26,7 @@
       <module name="microservices-consumer-80" target="1.8" />
       <module name="microservices-consumer-dept-80" target="1.8" />
       <module name="microservices-consumer-feign" target="1.8" />
+      <module name="microservices-consumer-hystrix-dashboard" target="1.8" />
       <module name="microservices-eurek-7001" target="1.8" />
       <module name="microservices-eureka-7002" target="1.8" />
       <module name="microservices-eureka-7003" target="1.8" />

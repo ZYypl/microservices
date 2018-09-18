@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservices-api/microservices-api.iml" filepath="$PROJECT_DIR$/microservices-api/microservices-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-consumer-80/microservices-consumer-80.iml" filepath="$PROJECT_DIR$/microservices-consumer-80/microservices-consumer-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-consumer-feign/microservices-consumer-feign.iml" filepath="$PROJECT_DIR$/microservices-consumer-feign/microservices-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-consumer-hystrix-dashboard/microservices-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservices-consumer-hystrix-dashboard/microservices-consumer-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-eurek-7001/microservices-eurek-7001.iml" filepath="$PROJECT_DIR$/microservices-eurek-7001/microservices-eurek-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-eureka-7002/microservices-eureka-7002.iml" filepath="$PROJECT_DIR$/microservices-eureka-7002/microservices-eureka-7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-eureka-7003/microservices-eureka-7003.iml" filepath="$PROJECT_DIR$/microservices-eureka-7003/microservices-eureka-7003.iml" />

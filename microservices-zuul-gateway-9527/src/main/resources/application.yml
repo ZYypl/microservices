@@ -1,0 +1,37 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservices-zuul-gateway
+
+# zuul 本身也要注册到eureka
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://localhost:7001/eureka    (单机)
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: zuul-gateway     # 服务名称修改(右)
+    prefer-ip-address: true   # 访问路径显示IP地址-->info
+
+# zuul访问映射
+
+zuul:
+  prefix: /ypl    # 前缀
+  ignore-services: microservices-dept   # 忽略之前的（全部用 "*"）
+  routes:
+    mydept.serviceId: microservices-dept
+    mydept.path: /myServicesDept/**      # 替代后
+
+
+
+
+
+
+# info
+info:
+  app.name: ypl-microservices
+  company.name: www.zy.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

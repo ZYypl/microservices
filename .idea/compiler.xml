@@ -17,6 +17,7 @@
         <module name="microservices-provider-dept-8002" />
         <module name="microservices-provider-dept-8003" />
         <module name="microservices-provider-dept-hystrix" />
+        <module name="microservices-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="microservices-provider-dept-8002" target="1.8" />
       <module name="microservices-provider-dept-8003" target="1.8" />
       <module name="microservices-provider-dept-hystrix" target="1.8" />
+      <module name="microservices-zuul-gateway-9527" target="1.8" />
       <module name="microservicesconsumerdept80" target="1.8" />
     </bytecodeTargetLevel>
   </component>
